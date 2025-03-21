@@ -50,36 +50,36 @@ public class Demo {
 		
 		
 		//2. Invalid Username, Valid Password
-//		WebElement D7 = driver.findElement(By.cssSelector("#user-name"));
-//		D7.click();
-//		D7.sendKeys("standard_user");
-//		
-//		WebElement D8 = driver.findElement(By.cssSelector("#password"));
-//		D8.click();
-//		D8.sendKeys("secret_");
-//		
-//		WebElement D9 = driver.findElement(By.cssSelector("#login-button"));
-//		D9.click();
-//		
-//		System.out.println("Invalid Login Error: Epic sadface: Username and password do not match any user in this service!");
-//		Thread.sleep(3000);
-//		
-//		
-//		
-////		//3. Invalid username, Inavlid password
-//		WebElement D10 = driver.findElement(By.cssSelector("#user-name"));
-//		D10.click();
-//		D10.sendKeys("standard_user");
-//		
-//		WebElement D11 = driver.findElement(By.cssSelector("#password"));
-//		D11.click();
-//		D11.sendKeys("secret_");
-//		
-//		WebElement D12 = driver.findElement(By.cssSelector("#login-button"));
-//		D12.click();		
-//		System.out.println("Invalid Login Error: Epic sadface: Username and password do not match any user in this service!");
-//		Thread.sleep(3000);
-//		
+		WebElement D7 = driver.findElement(By.cssSelector("#user-name"));
+		D7.click();
+		D7.sendKeys("standard_user");
+		
+		WebElement D8 = driver.findElement(By.cssSelector("#password"));
+		D8.click();
+		D8.sendKeys("secret_");
+		
+		WebElement D9 = driver.findElement(By.cssSelector("#login-button"));
+		D9.click();
+		
+		System.out.println("Invalid Login Error: Epic sadface: Username and password do not match any user in this service!");
+		Thread.sleep(3000);
+		
+		
+		
+		//3. Invalid username, Inavlid password
+		WebElement D10 = driver.findElement(By.cssSelector("#user-name"));
+		D10.click();
+		D10.sendKeys("standard_user");
+		
+		WebElement D11 = driver.findElement(By.cssSelector("#password"));
+		D11.click();
+		D11.sendKeys("secret_");
+		
+		WebElement D12 = driver.findElement(By.cssSelector("#login-button"));
+		D12.click();		
+		System.out.println("Invalid Login Error: Epic sadface: Username and password do not match any user in this service!");
+		Thread.sleep(3000);
+		
 		
 		
 	}
